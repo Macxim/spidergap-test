@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Spidergap - Test for the Software Developer role</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="main-title">
+        <img src="https://www.spidergap.com/shared/img/brand/logo_58px.png" alt="Spidegap">
+        <span>Test for the Software Developer role</span>
+      </h1>
+    </header>
+
+    <div class="container">
+      <div class="columns">
+        <div class="column col-6 col-mx-auto">
+          <section class="question">
+            <h2>Question 1</h2>
+            <p class="rounded question-wording">
+              Write a function called <code>deepClone</code> which takes an object and creates a copy of it.
+            </p>
+            <p class="rounded question-wording">
+              e.g. {name: "Paddy", address: {town: "Lerum", country: "Sweden"}}
+              <br>
+              <strong>-> {name: "Paddy", address: {town: "Lerum", country: "Sweden"}}</strong>
+            </p>
+
+            <h3 class="solution">Solution</h3>
+            <script src="https://gist.github.com/Macxim/a71ad8751dd0cecc539add8775bd38b1.js"></script>
+          </section>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column col-6 col-mx-auto">
+          <section>
+            <h2>Question 2</h2>
+            <p class="rounded question-wording">
+              We'd like to contact partners with offices within 100km of central London (coordinates <code>51.515419, -0.141099</code>) to invite them out for a meal.
+            </p>
+            <p class="rounded question-wording">
+              Write a NodeJS/JavaScript program that reads our list of partners and outputs <strong>the company names and addresses of matching partners (with offices within 100km) sorted by company name (ascending)</strong>.
+            </p>
+
+            <h3 class="solution">Solution</h3>
+
+            <h5>Matching companies with offices <strong>within 100km</strong> from Central London</h5>
+            <div id="companies" class="companies"></div>
+            <div id="blop"></div>
+
+            <h4 class="solution">Gist</h4>
+            <script src="https://gist.github.com/Macxim/f6bb06fb7d5c727d3ca0e556f15577ae.js"></script>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
